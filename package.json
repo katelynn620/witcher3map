@@ -17,6 +17,11 @@
     "#3 runs a web server using node/express in background. Watches for changes to any files in the assets folder and if a change is detected, ",
     "the build task is executed immediately so the results are visible your browser."
   ],
+  "scripts": {
+    "build": "grunt build",
+    "server": "grunt server",
+    "rebuild": "grunt rebuild"
+  },
   "name": "witcher3map",
   "version": "2.0.0",
   "description": "Unofficial Witcher 3 interactive maps, with a mobile & tablet friendly design faithful to the game.",
